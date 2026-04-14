@@ -74,6 +74,21 @@ entries:
   frigate:
   - apiVersion: v2
     appVersion: 0.13.0
+    created: "2026-04-14T08:29:04.4865826Z"
+    description: NVR With Realtime Object Detection for IP Cameras
+    digest: 9263a0d52f4feebbb534408cc6fec6c8e3086a098251a6d891d489c5f0c54849
+    keywords:
+    - tensorflow
+    - coral
+    - ml
+    maintainers:
+    - name: MedVista-PTY-LTD
+    name: frigate
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/frigate-1.1.1/frigate-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 0.13.0
     created: "2026-04-14T07:17:31.25489299Z"
     description: NVR With Realtime Object Detection for IP Cameras
     digest: 8b9c6c1be5bb4a681e49f7af6407bac0bbf315f3a5d7474111eb77b71b297365
@@ -245,4 +260,4 @@ entries:
     urls:
     - https://github.com/MedVista-PTY-LTD/charts/releases/download/thunderdome-planning-poker-1.0.0/thunderdome-planning-poker-1.0.0.tgz
     version: 1.0.0
-generated: "2026-04-14T07:17:32.809785913Z"
+generated: "2026-04-14T08:29:04.48659215Z"

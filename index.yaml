@@ -1,0 +1,248 @@
+apiVersion: v1
+entries:
+  apexkube:
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2026-04-14T07:17:30.678365251Z"
+    description: A Helm chart for apexkube
+    digest: 3bdfa858791146580f2b17ab368c7b3f4748343423f049405ec4f66de8d6ddff
+    maintainers:
+    - name: medvista-pty-ltd
+    name: apexkube
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/apexkube-1.1.0/apexkube-1.1.0.tgz
+    version: 1.1.0
+  cluster-api-provider-proxmox:
+  - annotations:
+      cluster.x-k8s.io/provider: proxmox
+      cluster.x-k8s.io/v1alpha3: v1alpha3
+      cluster.x-k8s.io/v1alpha4: v1alpha4
+      cluster.x-k8s.io/v1beta1: v1beta1_v1beta2
+    apiVersion: v2
+    appVersion: 0.5.1
+    created: "2026-04-14T07:17:30.830212925Z"
+    description: A Helm chart for Cluster API provider proxmox
+    digest: f12c118302b9baceb678bb5679d5e943c4590f47d8776e1e0d4235476867fd91
+    maintainers:
+    - name: medvista-pty-ltd
+    name: cluster-api-provider-proxmox
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/cluster-api-provider-proxmox-0.1.0/cluster-api-provider-proxmox-0.1.0.tgz
+    version: 0.1.0
+  erpnext:
+  - apiVersion: v2
+    appVersion: v13.4.1
+    created: "2026-04-14T07:17:30.989525345Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.3.14
+    description: Kubernetes Helm Chart for the lastest stable ERPNext branch
+    digest: ee57d0ad55841304afa3838e16ac856553d8222ebc72e5f4732553d1f78e1cd5
+    icon: https://raw.githubusercontent.com/frappe/design/master/logos/logo-2018/erpnext-logo-blue.svg
+    maintainers:
+    - name: medvista-pty-ltd
+    name: erpnext
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/erpnext-3.3.0/erpnext-3.3.0.tgz
+    version: 3.3.0
+  freeipa:
+  - apiVersion: v2
+    appVersion: 4.10.1
+    created: "2026-04-14T07:17:31.123976666Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: FreeIPA is an integrated security information management solution
+      combining Linux (Fedora), 389 Directory Server, MIT Kerberos, NTP, DNS, Dogtag
+      (Certificate System).
+    digest: c66d2ffc0b72919be63fd51a9f770cd8af7c7d905e27dd67abbcc4fbc8278703
+    maintainers:
+    - name: medvista-pty-ltd
+    name: freeipa
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/freeipa-0.4.1/freeipa-0.4.1.tgz
+    version: 0.4.1
+  frigate:
+  - apiVersion: v2
+    appVersion: 0.13.0
+    created: "2026-04-14T07:17:31.25489299Z"
+    description: NVR With Realtime Object Detection for IP Cameras
+    digest: 8b9c6c1be5bb4a681e49f7af6407bac0bbf315f3a5d7474111eb77b71b297365
+    keywords:
+    - tensorflow
+    - coral
+    - ml
+    maintainers:
+    - name: MedVista-PTY-LTD
+    name: frigate
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/frigate-1.1.0/frigate-1.1.0.tgz
+    version: 1.1.0
+  healthchecks:
+  - apiVersion: v2
+    appVersion: 2.7.0
+    created: "2026-04-14T07:17:31.396769465Z"
+    dependencies:
+    - condition: postgresql.enabled,global.postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.6
+    description: A Helm chart for Kubernetes
+    digest: 2b976c1043028115ea8d3fdc42ae014f6d3310bbc526847bc1de0a2c1b211ead
+    maintainers:
+    - email: pranat.pattankude@medvista.com.au
+      name: pranat
+    name: healthchecks
+    sources:
+    - https://github.com/healthchecks/healthchecks
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/healthchecks-1.1.1/healthchecks-1.1.1.tgz
+    version: 1.1.1
+  kore-board:
+  - apiVersion: v2
+    appVersion: v0.5.5
+    created: "2026-04-14T07:17:31.588804859Z"
+    description: Kubernetes multi-clusters dashboard
+    digest: 66df4f3ab72b5566fb3981e69a77a604a30942af1a42d0ea3ed167589733f1d2
+    maintainers:
+    - name: medvista-pty-ltd
+    name: kore-board
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/kore-board-0.5.8/kore-board-0.5.8.tgz
+    version: 0.5.8
+  kube-oidc-proxy:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-14T07:17:31.737692906Z"
+    description: A Helm chart for kube-oidc-proxy
+    digest: 068fe8cb521a3e49a6fa07188547e14894d89ac428f07892262811952606db6b
+    maintainers:
+    - name: medvista-pty-ltd
+    name: kube-oidc-proxy
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/kube-oidc-proxy-1.0.0/kube-oidc-proxy-1.0.0.tgz
+    version: 1.0.0
+  mosquitto:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - homeautomation
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.0.15
+    created: "2026-04-14T07:17:31.892965565Z"
+    dependencies:
+    - name: common
+      repository: ""
+      version: 11.1.2
+    description: Eclipse Mosquitto - An open source MQTT broker
+    digest: c868f74df0f59c23f5cfcbfe1e3a1d4638530e71ce201396d63eec8c1b2091cd
+    keywords:
+    - mosquitto
+    - MQTT
+    - eclipse-iot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: medvista-pty-ltd
+    name: mosquitto
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mosquitto
+    - https://github.com/eclipse/mosquitto
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/mosquitto-8.0.12/mosquitto-8.0.12.tgz
+    version: 8.0.12
+  nifi-registry:
+  - apiVersion: v2
+    appVersion: 1.27.0
+    created: "2026-04-14T07:17:32.048901116Z"
+    description: A Helm chart for nifi-registry
+    digest: 031888fe13ea99c76d653a684946bfd484c3980121c3f6b77769389f7103c413
+    maintainers:
+    - name: medvista-pty-ltd
+    name: nifi-registry
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/nifi-registry-1.0.0/nifi-registry-1.0.0.tgz
+    version: 1.0.0
+  pgcat:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2026-04-14T07:17:32.191890952Z"
+    description: A Helm chart for PgCat a PostgreSQL pooler and proxy (like PgBouncer)
+      with support for sharding, load balancing, failover and mirroring.
+    digest: 81e18736ca220691bd475e3bc2b73803705e42feea2fa97e460e4c87c938933d
+    maintainers:
+    - email: support@w6d.io
+      name: Wildcard
+    name: pgcat
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/pgcat-0.1.0/pgcat-0.1.0.tgz
+    version: 0.1.0
+  pgpool:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-14T07:17:32.334906625Z"
+    description: A Helm chart for Pgpool
+    digest: 27795270a4c5ca23519fb7224268ed0b003e45ca69163bda1ffb5a7c42ea4a59
+    maintainers:
+    - name: medvista-pty-ltd
+    name: pgpool
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/pgpool-1.0.1/pgpool-1.0.1.tgz
+    version: 1.0.1
+  polymorphic-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-14T07:17:32.50537643Z"
+    description: A Helm chart for deploying any custom applications, specifically
+      polymorphic applications.
+    digest: 8716fcc6ce6491e20f0f658ceb73729cbb122d1490a7ed5a5115840313f35592
+    maintainers:
+    - name: medvista-pty-ltd
+    name: polymorphic-app
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/polymorphic-app-2.7.0/polymorphic-app-2.7.0.tgz
+    version: 2.7.0
+  proxysql:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-14T07:17:32.663078681Z"
+    description: A Helm chart for ProxySQL
+    digest: 153d9bc3b72a23133ca4ca4f2626ae451f3e86df3ba716a027fc04c61885fd9f
+    maintainers:
+    - name: medvista-pty-ltd
+    name: proxysql
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/proxysql-1.0.0/proxysql-1.0.0.tgz
+    version: 1.0.0
+  thunderdome-planning-poker:
+  - apiVersion: v2
+    appVersion: v2.29.2
+    created: "2026-04-14T07:17:32.809779934Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.6
+    description: A Helm chart for thunderdome-planning-poker
+    digest: 6a4afa00ddbae99f26a010ee30a36606658c51220153ca4b0d46454e5fad779d
+    name: thunderdome-planning-poker
+    type: application
+    urls:
+    - https://github.com/MedVista-PTY-LTD/charts/releases/download/thunderdome-planning-poker-1.0.0/thunderdome-planning-poker-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-04-14T07:17:32.809785913Z"

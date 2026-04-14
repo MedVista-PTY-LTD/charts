@@ -6,7 +6,7 @@ NVR With Realtime Object Detection for IP Cameras
 
 This Helm Chart installs [Frigate](https://frigate.video/) on to Kubernetes.
 
-**Homepage:** helm repo index --url https://improwised.github.io/charts .
+**Homepage:** helm repo index --url https://medvista-pty-ltd.github.io/charts .
 ## Install
 
 Using [Helm](https://helm.sh), you can easily install and test Frigate in a
@@ -16,7 +16,7 @@ Kubernetes cluster by running the following:
 
 First, add the repo if you haven't already done so:
 ```bash
-helm repo add improwised https://improwised.github.io/charts/
+helm repo add medvista-pty-ltd https://medvista-pty-ltd.github.io/charts/
 ```
 
 #### Minimum Config
@@ -51,7 +51,7 @@ Now install the chart:
 ```bash
 helm upgrade --install \
   my-release \
-  improwised/frigate \
+  medvista-pty-ltd/frigate \
   -f values.yaml
 ```
 
@@ -59,7 +59,7 @@ helm upgrade --install \
 
 | Name | URL
 | ---- | ------ 
-| Improwised | improwised.com |
+| MedVista-PTY-LTD | medvista-pty-ltd.com |
 
 
 

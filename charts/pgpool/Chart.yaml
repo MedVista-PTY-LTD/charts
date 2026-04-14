@@ -4,4 +4,4 @@ description: A Helm chart for Pgpool
 name: pgpool
 version: 1.0.1
 maintainers:
-  - name: improwised
+  - name: medvista-pty-ltd

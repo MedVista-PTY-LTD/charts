@@ -9,7 +9,7 @@ on:
 
 jobs:
   release:
-    if: github.repository == 'Improwised/charts' && github.event.workflow_run.conclusion == 'success'
+    if: github.repository == 'MedVista-PTY-LTD/charts' && github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

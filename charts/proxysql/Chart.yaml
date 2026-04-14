@@ -4,4 +4,4 @@ description: A Helm chart for ProxySQL
 name: proxysql
 version: 1.0.0
 maintainers:
-  - name: improwised
+  - name: medvista-pty-ltd

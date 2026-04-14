@@ -5,4 +5,4 @@ version: 0.5.8
 appVersion: v0.5.5
 description: Kubernetes multi-clusters dashboard
 maintainers:
-  - name: improwised
+  - name: medvista-pty-ltd

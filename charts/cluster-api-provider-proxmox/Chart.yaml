@@ -25,4 +25,4 @@ annotations:
   cluster.x-k8s.io/v1alpha4: v1alpha4
   cluster.x-k8s.io/v1beta1: v1beta1_v1beta2
 maintainers:
-  - name: improwised
+  - name: medvista-pty-ltd

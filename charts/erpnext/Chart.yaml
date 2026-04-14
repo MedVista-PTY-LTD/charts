@@ -6,7 +6,7 @@ name: erpnext
 type: application
 version: 3.3.0
 maintainers:
-  - name: improwised
+  - name: medvista-pty-ltd
 dependencies:
   - name: mariadb
     version: 9.3.14

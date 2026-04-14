@@ -1,9 +1,8 @@
 version: 2
 updates:
-
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
     reviewers:
-      - "Improwised/devops-technocrats"
+      - "MedVista-PTY-LTD/devops-technocrats"

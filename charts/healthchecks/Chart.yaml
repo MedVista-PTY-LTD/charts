@@ -2,8 +2,8 @@ apiVersion: v2
 name: healthchecks
 description: A Helm chart for Kubernetes
 maintainers:
-  - email: rakshit@improwised.com
-    name: rakshit
+  - email: pranat.pattankude@medvista.com.au
+    name: pranat
 type: application
 version: 1.1.1
 appVersion: 2.7.0

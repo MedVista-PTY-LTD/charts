@@ -15,7 +15,7 @@ keywords:
 - eclipse-iot
 kubeVersion: '>=1.16.0-0'
 maintainers:
-  - name: improwised
+  - name: medvista-pty-ltd
 name: mosquitto
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/mosquitto
